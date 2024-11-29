@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Title>MySqlGuidByteSwap</Title>
+    <Authors>jghek</Authors>
+    <Company>Qtopia BV</Company>
+    <Description>MySqlByteSwap swaps bytes in the Guid to make the .NET Guid compatible with MySql's BIN_TO_UUID() function.</Description>
+    <Copyright>(c) 2024 by J.G.Hek</Copyright>
+    <PackageProjectUrl>https://github.com/jghek/MySqlGuidByteSwap</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/jghek/MySqlGuidByteSwap</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>mysql guid</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\assets\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
