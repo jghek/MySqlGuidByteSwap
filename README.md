@@ -2,7 +2,7 @@
 
 MySqlGuidByteSwap is a utility package that simplifies handling GUIDs (Globally Unique Identifiers) when working with MySQL databases. MySQL stores GUIDs in a binary format with a different byte order than .NET/C#. This library provides methods to convert GUIDs to and from MySQL's binary representation, making it easy to store and retrieve GUIDs in their correct format.
 
-![Icon](https://github.com/jghek/MySqlGuidByteSwap/assets/icon.png)  
+![Icon](https://raw.githubusercontent.com/jghek/MySqlGuidByteSwap/refs/heads/main/assets/icon.png)  
 *Icon designed by [FlatIcon.com](https://www.flaticon.com).*
 
 ---
